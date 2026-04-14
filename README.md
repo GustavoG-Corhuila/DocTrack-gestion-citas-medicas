@@ -107,12 +107,6 @@ git clone https://github.com/GustavoG-Corhuila/DocTrack-gestion-citas-medicas
 # 2) Entrar al proyecto
 cd DocTrack-gestion-citas-medicas
 
-# 3) Instalar dependencias
-npm install
-
-# 4) Ejecutar en desarrollo
-npm run dev
-```
 
 ## Estructura del proyecto
 
@@ -143,6 +137,9 @@ DocTrack-gestion-citas-medicas/
 ## Seguimiento del proyecto
 
 - Ver Tablero Kanban del Proyecto: https://github.com/users/GustavoG-Corhuila/projects/1/
+
+## Video de Presentación.
+https://drive.google.com/file/d/16tVT-tBkAlzWWv0wvhDftFVKup_6UKCL/view?usp=sharing
 
 ## Contribuciones
 
