@@ -40,6 +40,7 @@ DocTrack reduce estos problemas automatizando el ciclo completo de agendamiento.
 - [Estructura recomendada del proyecto](#estructura-recomendada-del-proyecto)
 - [Métricas objetivo](#métricas-objetivo)
 - [Seguimiento del proyecto](#seguimiento-del-proyecto)
+- [Video de presentación](#video-de-presentación)
 - [Contribuciones](#contribuciones)
 
 ---
@@ -106,7 +107,7 @@ git clone https://github.com/GustavoG-Corhuila/DocTrack-gestion-citas-medicas
 
 # 2) Entrar al proyecto
 cd DocTrack-gestion-citas-medicas
-
+```
 
 ## Estructura del proyecto
 
@@ -138,7 +139,8 @@ DocTrack-gestion-citas-medicas/
 
 - Ver Tablero Kanban del Proyecto: https://github.com/users/GustavoG-Corhuila/projects/1/
 
-## Video de Presentación.
+## Video de Presentación
+
 https://drive.google.com/file/d/16tVT-tBkAlzWWv0wvhDftFVKup_6UKCL/view?usp=sharing
 
 ## Contribuciones
