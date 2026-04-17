@@ -19,9 +19,7 @@ Sistema de gestión de citas médicas para consultorios independientes.
 - [Alcance funcional objetivo](#alcance-funcional-objetivo)
 - [Stack tecnológico propuesto](#stack-tecnológico-propuesto)
 - [Roadmap](#roadmap)
-- [Sprint 1 (14/04/2026 - 28/04/2026)](#sprint-1-14042026---28042026)
 - [Estructura actual del proyecto](#estructura-actual-del-proyecto)
-- [Evidencias](#evidencias)
 - [Recursos](#recursos)
 - [Contribuciones](#contribuciones)
 
