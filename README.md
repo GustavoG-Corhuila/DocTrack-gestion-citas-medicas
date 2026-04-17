@@ -1,165 +1,126 @@
 # DocTrack
 
-### Sistema de gestión de citas médicas para consultorios independientes
+Sistema de gestión de citas médicas para consultorios independientes.
 
 <p align="left">
-	<img src="https://img.shields.io/badge/Estado-En%20desarrollo-0a7ea4" alt="Estado" />
-	<img src="https://img.shields.io/badge/Frontend-React-61dafb" alt="React" />
-	<img src="https://img.shields.io/badge/Backend-Node.js-3c873a" alt="Node" />
-	<img src="https://img.shields.io/badge/Base%20de%20datos-PostgreSQL-336791" alt="PostgreSQL" />
-	<img src="https://img.shields.io/badge/Arquitectura-API%20REST-5c6ac4" alt="REST" />
+  <img src="https://img.shields.io/badge/Estado-En%20desarrollo-0a7ea4" alt="Estado" />
+  <img src="https://img.shields.io/badge/Frontend-React-61dafb" alt="React" />
+  <img src="https://img.shields.io/badge/Backend-Node.js-3c873a" alt="Node" />
+  <img src="https://img.shields.io/badge/Base%20de%20datos-PostgreSQL-336791" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Arquitectura-API%20REST-5c6ac4" alt="REST" />
 </p>
 
----
+## Tabla de contenido
 
-## Resumen
+- [Descripción](#descripción)
+- [Problema que resuelve](#problema-que-resuelve)
+- [Estado actual del repositorio](#estado-actual-del-repositorio)
+- [Alcance funcional objetivo](#alcance-funcional-objetivo)
+- [Stack tecnológico propuesto](#stack-tecnológico-propuesto)
+- [Roadmap](#roadmap)
+- [Sprint 1 (14/04/2026 - 28/04/2026)](#sprint-1-14042026---28042026)
+- [Estructura actual del proyecto](#estructura-actual-del-proyecto)
+- [Evidencias](#evidencias)
+- [Recursos](#recursos)
+- [Contribuciones](#contribuciones)
 
-DocTrack es una aplicación web pensada para consultorios médicos que aún gestionan citas por teléfono o en agenda física. Permite que el paciente reserve su turno en línea y que el medico visualice y administre su agenda diaria desde un panel centralizado.
+## Descripción
+
+DocTrack es una solución web para digitalizar la gestión de agendas médicas. Está orientada a consultorios que hoy trabajan con llamadas telefónicas o agendas físicas y necesitan reducir errores operativos, optimizar tiempos y mejorar la experiencia del paciente.
 
 ## Problema que resuelve
 
-En consultorios pequeños, la gestión manual de 20 o 30 citas al día suele generar:
+La gestión manual de citas suele causar:
 
 - Doble asignación de horarios.
 - Ausentismo por falta de recordatorios.
-- Poca visibilidad de la carga diaria del médico.
-- Huecos muertos en agenda que se traducen en pérdida de ingresos.
+- Baja visibilidad de la carga diaria del médico.
+- Huecos de agenda que afectan ingresos y productividad.
 
-DocTrack reduce estos problemas automatizando el ciclo completo de agendamiento.
+DocTrack automatiza el ciclo de agendamiento para reducir estos problemas.
 
----
+## Estado actual del repositorio
 
-## Tabla de contenidos
+Este repositorio contiene principalmente documentación académica y evidencias del Sprint 1:
 
-- [Características principales](#características-principales)
-- [Stack tecnológico](#stack-tecnológico)
-- [Arquitectura funcional](#arquitectura-funcional)
-- [Flujo de usuario](#flujo-de-usuario)
-- [Roadmap por fases](#roadmap-por-fases)
-- [Instalación local](#instalación-local)
-- [Estructura recomendada del proyecto](#estructura-recomendada-del-proyecto)
-- [Métricas objetivo](#métricas-objetivo)
-- [Seguimiento del proyecto](#seguimiento-del-proyecto)
-- [Video de presentación](#video-de-presentación)
-- [Contribuciones](#contribuciones)
-- [Sprint 1 - Plan](#sprint-1--plan)
+- Informe de avance: [INFORME-SPRINT1.md](./INFORME-SPRINT1.md)
+- Evidencias gráficas: [docs/img](./docs/img)
 
----
+La implementación de código (frontend/backend) está planificada en las siguientes iteraciones.
 
-## Características principales
+## Alcance funcional objetivo
 
 - Registro e inicio de sesión para pacientes y médicos.
 - Búsqueda de médicos por especialidad y disponibilidad.
 - Reserva, reprogramación y cancelación de citas.
-- Panel del médico con vista diaria/semanal de agenda.
-- Gestión de estados de cita (pendiente, confirmada, completada, cancelada).
-- Recordatorios automáticos por correo o WhatsApp (según integración).
+- Panel de agenda para médicos.
+- Gestión de estado de citas (pendiente, confirmada, completada, cancelada).
+- Recordatorios automáticos (correo y/o WhatsApp).
 
-## Stack tecnológico
+## Stack tecnológico propuesto
 
-| Capa | Tecnología | Justificación |
-|---|---|---|
-| Frontend | React | Interfaz dinámica con componentes reutilizables |
-| Backend | Node.js + Express | API liviana y escalable para un MVP funcional |
-| Base de datos | PostgreSQL | Integridad y consistencia para datos clínicos y agendas |
-| Autenticación | Firebase Auth o JWT | Seguridad y control de sesiones |
-| Despliegue | Vercel/Netlify + Railway/Render | Configuración simple para publicar rápido |
+| Capa | Tecnología propuesta |
+|---|---|
+| Frontend | React |
+| Backend | Node.js + Express |
+| Base de datos | PostgreSQL |
+| Autenticación | JWT o Firebase Auth |
+| Despliegue | Vercel/Netlify + Railway/Render |
 
-## Arquitectura funcional
-
-```text
-Paciente Web/Mobile
-				|
-				v
-	 Frontend (React)
-				|
-				v
-API REST (Node + Express)
-				|
-				v
-	PostgreSQL (citas, usuarios, disponibilidad)
-```
-
-## Flujo de usuario
-
-1. El paciente se registra o inicia sesión.
-2. Busca medico por especialidad y horario.
-3. Selecciona fecha y franja disponible.
-4. Confirma la cita y recibe notificación.
-5. El medico visualiza cambios en su panel en tiempo real (o casi real).
-
----
-
-## Roadmap por fases
+## Roadmap
 
 | Fase | Alcance | Estado |
 |---|---|---|
-| Fase 1 | Identidad y perfiles (registro, login, roles) | En planificación |
-| Fase 2 | Core de agendamiento (búsqueda, disponibilidad, reserva) | Pendiente |
+| Fase 1 | Identidad y perfiles | En curso |
+| Fase 2 | Core de agendamiento | Pendiente |
 | Fase 3 | Panel médico y notificaciones | Pendiente |
-| Fase 4 | Frontend avanzado e integración | Pendiente |
-| Fase 5 | Cierre, pruebas y despliegue | Pendiente |
+| Fase 4 | Integración y UX | Pendiente |
+| Fase 5 | Pruebas y despliegue | Pendiente |
 
-## Instalación local
+## Sprint 1 (14/04/2026 - 28/04/2026)
 
-```bash
-# 1) Clonar repositorio
-git clone https://github.com/GustavoG-Corhuila/DocTrack-gestion-citas-medicas
+Historias priorizadas:
 
-# 2) Entrar al proyecto
-cd DocTrack-gestion-citas-medicas
-```
+1. HU-01 Registro de nuevos pacientes.
+2. HU-02 Inicio de sesión seguro.
+3. HU-03 Gestión de perfil del médico.
+4. HU-04 Recuperación de contraseña.
+5. HU-05 Validación de tarjeta profesional.
 
-## Estructura del proyecto
+Motivación: estas historias corresponden a la épica de identidad, base necesaria para habilitar el flujo de citas.
+
+## Estructura actual del proyecto
 
 ```text
 DocTrack-gestion-citas-medicas/
-|-- frontend/
-|   |-- src/
-|   |-- public/
-|-- backend/
-|   |-- src/
-|   |   |-- controllers/
-|   |   |-- routes/
-|   |   |-- services/
-|   |   |-- models/
-|   |-- config/
 |-- docs/
+|   |-- img/
+|   |   |-- tableroKanban.png
+|   |   |-- pulse.png
+|   |   |-- contributors.png
+|   |   |-- commits.png
+|   |   |-- codeFrecuency.png
+|-- INFORME-SPRINT1.md
 |-- README.md
 ```
 
----
+## Evidencias
 
-## Métricas objetivo
+- Tablero Kanban: [docs/img/tableroKanban.png](./docs/img/tableroKanban.png)
+- Pulse: [docs/img/pulse.png](./docs/img/pulse.png)
+- Contributors: [docs/img/contributors.png](./docs/img/contributors.png)
+- Commits: [docs/img/commits.png](./docs/img/commits.png)
+- Code frequency: [docs/img/codeFrecuency.png](./docs/img/codeFrecuency.png)
 
-- Reducir no-shows al menos un 20% en 3 meses.
-- Reducir conflictos de agenda (dobles citas) a casi 0.
-- Ahorrar al menos 1 a 2 horas administrativas por semana en consultorios pequeños.
+## Recursos
 
-## Seguimiento del proyecto
-
-- Ver Tablero Kanban del Proyecto: https://github.com/users/GustavoG-Corhuila/projects/1/
-
-## Video de Presentación
-
-https://drive.google.com/file/d/16tVT-tBkAlzWWv0wvhDftFVKup_6UKCL/view?usp=sharing
+- Tablero del proyecto: https://github.com/users/GustavoG-Corhuila/projects/1/
+- Video de presentación: https://drive.google.com/file/d/16tVT-tBkAlzWWv0wvhDftFVKup_6UKCL/view?usp=sharing
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas. Flujo recomendado:
+Si deseas contribuir:
 
 1. Crea una rama desde main.
-2. Implementa cambios pequeños y enfocados.
-3. Abre un Pull Request con descripción clara y evidencia (capturas o pruebas).
-
-## Sprint 1 — Plan
-**Periodo:** 14 de abril de 2026 – 28 de abril de 2026 (2 semanas)
-
-### Historias de Usuario seleccionadas:
-1. **HU-01:** Registro de nuevos pacientes (Issue #1)
-2. **HU-02:** Inicio de sesión seguro (Issue #2)
-3. **HU-03:** Gestión de perfil del médico (Issue #3)
-4. **HU-04:** Recuperación de contraseña (Issue #4)
-5. **HU-05:** Validación de tarjeta profesional (Issue #5)
-
-**Criterio de selección:** Se eligieron estas 5 historias porque corresponden a la **Épica 1: Gestión de Identidad**. Son la base fundamental del proyecto; sin un sistema de usuarios y perfiles válidos, no podemos avanzar con el agendamiento de citas.
+2. Realiza cambios pequeños y enfocados.
+3. Abre un Pull Request con descripción y evidencias.
