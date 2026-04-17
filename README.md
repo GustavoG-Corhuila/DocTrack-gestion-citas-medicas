@@ -15,6 +15,7 @@ Sistema de gestión de citas médicas para consultorios independientes.
 - [Descripción](#descripción)
 - [Problema que resuelve](#problema-que-resuelve)
 - [Estado actual del repositorio](#estado-actual-del-repositorio)
+- [Progreso del Proyecto](#progreso-del-proyecto)
 - [Alcance funcional objetivo](#alcance-funcional-objetivo)
 - [Stack tecnológico propuesto](#stack-tecnológico-propuesto)
 - [Roadmap](#roadmap)
@@ -43,10 +44,20 @@ DocTrack automatiza el ciclo de agendamiento para reducir estos problemas.
 
 Este repositorio contiene principalmente documentación académica y evidencias del Sprint 1:
 
-- Informe de avance: [INFORME-SPRINT1.md](./INFORME-SPRINT1.md)
 - Evidencias gráficas: [docs/img](./docs/img)
 
+El detalle del avance del sprint se encuentra en la sección [Progreso del Proyecto](#progreso-del-proyecto).
 La implementación de código (frontend/backend) está planificada en las siguientes iteraciones.
+
+## Progreso del Proyecto
+
+| Sprint | Estado |
+|---|---|
+| Sprint 1 | En curso |
+
+- Informe de progreso: [INFORME-SPRINT1.md](./INFORME-SPRINT1.md)
+
+Estado actual del tablero: 2 issues cerrados, 1 en revisión y 2 en progreso.
 
 ## Alcance funcional objetivo
 
@@ -77,17 +88,6 @@ La implementación de código (frontend/backend) está planificada en las siguie
 | Fase 4 | Integración y UX | Pendiente |
 | Fase 5 | Pruebas y despliegue | Pendiente |
 
-## Sprint 1 (14/04/2026 - 28/04/2026)
-
-Historias priorizadas:
-
-1. HU-01 Registro de nuevos pacientes.
-2. HU-02 Inicio de sesión seguro.
-3. HU-03 Gestión de perfil del médico.
-4. HU-04 Recuperación de contraseña.
-5. HU-05 Validación de tarjeta profesional.
-
-Motivación: estas historias corresponden a la épica de identidad, base necesaria para habilitar el flujo de citas.
 
 ## Estructura actual del proyecto
 
@@ -104,13 +104,6 @@ DocTrack-gestion-citas-medicas/
 |-- README.md
 ```
 
-## Evidencias
-
-- Tablero Kanban: [docs/img/tableroKanban.png](./docs/img/tableroKanban.png)
-- Pulse: [docs/img/pulse.png](./docs/img/pulse.png)
-- Contributors: [docs/img/contributors.png](./docs/img/contributors.png)
-- Commits: [docs/img/commits.png](./docs/img/commits.png)
-- Code frequency: [docs/img/codeFrecuency.png](./docs/img/codeFrecuency.png)
 
 ## Recursos
 

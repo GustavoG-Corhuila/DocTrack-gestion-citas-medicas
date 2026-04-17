@@ -40,4 +40,4 @@ Interpretacion: hay picos de actividad en dias especificos del sprint; sin embar
 - [Issue #2 - HU-02: Inicio de sesion seguro](https://github.com/GustavoG-Corhuila/DocTrack-gestion-citas-medicas/issues/2)
 
 ## 6. Video de Avance Sprint 1
-[Video de presentacion Sprint 1](https://drive.google.com/file/d/16tVT-tBkAlzWWv0wvhDftFVKup_6UKCL/view?usp=sharing)
+[Video de presentacion Sprint 1](https://drive.google.com/file/d/1YdkWi8zHfX9Qvic6lnuFYbyhSDx56leY/view?usp=sharing)
