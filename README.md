@@ -42,6 +42,7 @@ DocTrack reduce estos problemas automatizando el ciclo completo de agendamiento.
 - [Seguimiento del proyecto](#seguimiento-del-proyecto)
 - [Video de presentación](#video-de-presentación)
 - [Contribuciones](#contribuciones)
+- [Sprint 1 - Plan](#sprint-1--plan)
 
 ---
 
@@ -150,3 +151,15 @@ Las contribuciones son bienvenidas. Flujo recomendado:
 1. Crea una rama desde main.
 2. Implementa cambios pequeños y enfocados.
 3. Abre un Pull Request con descripción clara y evidencia (capturas o pruebas).
+
+## Sprint 1 — Plan
+**Periodo:** 14 de abril de 2026 – 28 de abril de 2026 (2 semanas)
+
+### Historias de Usuario seleccionadas:
+1. **HU-01:** Registro de nuevos pacientes (Issue #1)
+2. **HU-02:** Inicio de sesión seguro (Issue #2)
+3. **HU-03:** Gestión de perfil del médico (Issue #3)
+4. **HU-04:** Recuperación de contraseña (Issue #4)
+5. **HU-05:** Validación de tarjeta profesional (Issue #5)
+
+**Criterio de selección:** Se eligieron estas 5 historias porque corresponden a la **Épica 1: Gestión de Identidad**. Son la base fundamental del proyecto; sin un sistema de usuarios y perfiles válidos, no podemos avanzar con el agendamiento de citas.
